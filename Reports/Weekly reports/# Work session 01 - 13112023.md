@@ -27,7 +27,8 @@ AS the three motors share nearly the same specifics, after a careful considerati
   ## Motor test
 
 As it is my first time using a brushless motor, i tried using one and making it run at a certain speed. The used code was as follows :
-    "const int moteur=5;
+
+    const int moteur=5;
     void setup(){
     pinMode(moteur,OUTPUT);
     Serial.begin(9600);
@@ -38,7 +39,7 @@ As it is my first time using a brushless motor, i tried using one and making it 
     delay(5000);
     digitalWrite(moteur,1);
     digitalRead(moteur);
-    }"
+    }
 Carefully connecting each wire into its suitable pin, there was no apparent mistake in the installation.
 
 ![brushless motor](https://github.com/ProjectAliB/ProjectAli.github.io/blob/main/Ressources/Images%26Pictures/20231116_153714.jpg)
