@@ -24,24 +24,21 @@ AS the three motors share nearly the same specifics, after a careful considerati
 ![Motor's dimensions(mm)](http://ozo-electric.com/img/cms/moteurs/DD35/plan-moteur-transport-DD35.jpg)
 ![Technical sheet](https://github.com/ProjectAliB/ProjectAli.github.io/blob/6aa0f8a2c6f2a623c455a85c08af97641e0e3abf/Ressources/Images%26Pictures/Screenshot%202023.png.png)
 
-## Motor test
-
-As it is my first time using a brushless motor, i tried using one and making it run at a certain speed. The used code was as follows :
   ## Motor test
 
 As it is my first time using a brushless motor, i tried using one and making it run at a certain speed. The used code was as follows :
-    const int moteur=5;
+    "const int moteur=5;
     void setup(){
-      pinMode(moteur,OUTPUT);
-      Serial.begin(9600);
+    pinMode(moteur,OUTPUT);
+    Serial.begin(9600);
     }
     void loop(){
-      digitalWrite(moteur,0);
-      digitalRead(moteur);
-      delay(5000);
-      digitalWrite(moteur,1);
-      digitalRead(moteur);
-    }
+    digitalWrite(moteur,0);
+    digitalRead(moteur);
+    delay(5000);
+    digitalWrite(moteur,1);
+    digitalRead(moteur);
+    }"
 Carefully connecting each wire into its suitable pin, there was no apparent mistake in the installation.
 
 The motor however still didn't seem to be working, although it was alimented by 12V. The problem may reside ine the code.
