@@ -22,7 +22,7 @@ Having an motor adapted to those needs is therefore neccessary. Out of the many 
 AS the three motors share nearly the same specifics, after a careful consideration of the product's price, delivering fees, and the possibility to contact the manufacturer when needed, we chose the Ozo product:
 ![Ozo hub motor](https://ozo-electric.com/6186289-thickbox_default/moteur-dd35-transport-arriere-direct-drive-2000w.jpg)
 ![Motor's dimensions(mm)](http://ozo-electric.com/img/cms/moteurs/DD35/plan-moteur-transport-DD35.jpg)
-![Technical sheet](C:\Users\alime\Documents\Schoolrelated\SCQProject\ImagesPictures\Screenshot2023.png)
+![Technical sheet](https://github.com/ProjectAliB/ProjectAli.github.io/blob/6aa0f8a2c6f2a623c455a85c08af97641e0e3abf/Ressources/Images%26Pictures/Screenshot%202023.png.png)
 
 ## Code
 
