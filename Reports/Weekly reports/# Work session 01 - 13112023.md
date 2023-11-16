@@ -40,6 +40,8 @@ As it is my first time using a brushless motor, i tried using one and making it 
     digitalRead(moteur);
     }"
 Carefully connecting each wire into its suitable pin, there was no apparent mistake in the installation.
+
 ![brushless motor](https://github.com/ProjectAliB/ProjectAli.github.io/blob/main/Ressources/Images%26Pictures/20231116_153714.jpg)
 ![brushless motor](https://github.com/ProjectAliB/ProjectAli.github.io/blob/cf0484b16a6a9bf3249d1c41d9acbb389cd07119/Ressources/Images%26Pictures/20231116_153720.jpg)
+
 The motor however still didn't seem to be working, although it was alimented by 12V. The problem may reside ine the code.
