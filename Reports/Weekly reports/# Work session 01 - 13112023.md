@@ -1,0 +1,4 @@
+# Work session 01 - 13/11/2023
+- Listing the companies manufacturing motors respecting our requirements: After considering each manufacturer's reputation, delivering services and general prices, we reduced our options to four suppliers: Ozo, AliExpress, CDiscount and eBikes.
+- Comparing the differents products based on price, reviews,and technology available with it: After studying the price of each motor, the delivering fees, the delivery day, the possibility to program it and the specificities of each motor( brushless, direct drive, 3kW power, 48V), we decided on the Ozo product.
+- Search for methods to program two brushless motors hub motors with an ESP32 controller (Phase One): Documentation on how to set up both the hardware and a software in order to control the speed of the brushless motor.
