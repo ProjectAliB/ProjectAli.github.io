@@ -49,4 +49,4 @@ The motor however still didn't seem to be working, although it was alimented by 
 
 ## Next goal
 
-Looking for a code that enable me to control the speed of the brushless motor.
+Looking for a code that enables me to control the speed of the brushless motor.
