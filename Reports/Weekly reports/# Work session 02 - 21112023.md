@@ -17,6 +17,7 @@ After following the given model, the installation was now complete.
 
 All that was left was to implement the code.
 
+  ```
   #include <Servo.h>
   
   Servo ESC;     // create servo object to control the ESC
@@ -35,6 +36,7 @@ All that was left was to implement the code.
     ESC.write(potValue);    // Send the signal to the ESC
     Serial.println(potValue);
   }
+  ```
 
 After executing the code, i was able to control the speed of the brushless motor using the potentiometer connected to the arduino.
 
