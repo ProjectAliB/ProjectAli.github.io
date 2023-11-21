@@ -46,3 +46,7 @@ Carefully connecting each wire into its suitable pin, there was no apparent mist
 ![brushless motor](https://github.com/ProjectAliB/ProjectAli.github.io/blob/cf0484b16a6a9bf3249d1c41d9acbb389cd07119/Ressources/Images%26Pictures/20231116_153720.jpg)
 
 The motor however still didn't seem to be working, although it was alimented by 12V. The problem may reside ine the code.
+
+## Next goal
+
+Looking for a code that enable me to control the speed of the brushless motor.
