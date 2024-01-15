@@ -2,35 +2,35 @@
 
 ## What is the robot capable of using this code?
 
--The robot is capable of finding a single black square in a maze regardless of the maze's size or the black square's position.
--Not having the black square near a wall is not a problem at all.
--This code is still functionning not matter where the starting point (the red square) is.
--This code does not prioritize speed, however it has a nearly 100% success rate.
--The robot is only finding one black square before returning to the red square.
--Changing the red square position after the code starts is not a problem.
+- The robot is capable of finding a single black square in a maze regardless of the maze's size or the black square's position.
+- Not having the black square near a wall is not a problem at all.
+- This code is still functionning not matter where the starting point (the red square) is.
+- This code does not prioritize speed, however it has a nearly 100% success rate.
+- The robot is only finding one black square before returning to the red square.
+- Changing the red square position after the code starts is not a problem.
 
 ## What is happening in the code?
 
--After starting the code, a first loop will start. The ending condition is the light sensor returning a value equal to 0, which means finding the black color.
--While in the loop, the robot will keep moving forward as long as both its front proximity sensors don't detect any obstacles.
--While moving forward, the robot will keep checking with its "VerfifyBlack" function if it is on a black square. Finding it will make the robot break from this while loop. The "VerifyBlack" is also capable of distinguishing between a black line and a black square. How it is done is explained in the code.
--If the robot detect an obstacle at the front, it will turn, right or left depending on the obstacle's position, until there is no more obstacle at the front.
--After turning, the robot will check again for the black square using the "VerifyBlack" function.
--This marks the end of the first while loop. Breaking this loop means the robot succeded in finding the black square.
--After finding the black square and breaking from the first while loop, the robot will enter a second while loop similar to the first. The only difference being the ending condition. This time, the ending condtion is the light sensor returning a analog value between 250 and 300.
--A analog value between 250 and 300 means the robot is standing on a red square, this has bee, confirmed through several trials.
--The robot will then follow the same method as in the first loop, except it will be using the "VerifyRed" function instead of the "VerifyBlack" one. How it works is explained in the code.
--The robot will keep executing the code in the second loop until finding the red square. It will then stop moving.
+- After starting the code, a first loop will start. The ending condition is the light sensor returning a value equal to 0, which means finding the black color.
+- While in the loop, the robot will keep moving forward as long as both its front proximity sensors don't detect any obstacles.
+- While moving forward, the robot will keep checking with its "VerfifyBlack" function if it is on a black square. Finding it will make the robot break from this while loop. The "VerifyBlack" is also capable of distinguishing between a black line and a black square. How it is done is explained in the code.
+- If the robot detect an obstacle at the front, it will turn, right or left depending on the obstacle's position, until there is no more obstacle at the front.
+- After turning, the robot will check again for the black square using the "VerifyBlack" function.
+- This marks the end of the first while loop. Breaking this loop means the robot succeded in finding the black square.
+- After finding the black square and breaking from the first while loop, the robot will enter a second while loop similar to the first. The only difference being the ending condition. This time, the ending condtion is the light sensor returning a analog value between 250 and 300.
+- A analog value between 250 and 300 means the robot is standing on a red square, this has bee, confirmed through several trials.
+- The robot will then follow the same method as in the first loop, except it will be using the "VerifyRed" function instead of the "VerifyBlack" one. How it works is explained in the code.
+- The robot will keep executing the code in the second loop until finding the red square. It will then stop moving.
 
 ## Used functions
 
--"forward()": Moving the robot forward.
--"backward(): Moving the robot backward.
--"stop(): Completely stoping the robot from moving.
--"TurnRight()": The robot turns right.
--"TurnLeft()": The robot turns left.
--"VerifyBlack()": Verifying the robot reached a black square.
- -"VerifyRed()": Verifying the robot reached a red square.
+- "forward()": Moving the robot forward.
+- "backward(): Moving the robot backward.
+- "stop(): Completely stoping the robot from moving.
+- "TurnRight()": The robot turns right.
+- "TurnLeft()": The robot turns left.
+- "VerifyBlack()": Verifying the robot reached a black square.
+- "VerifyRed()": Verifying the robot reached a red square.
 
 ## Code
 
