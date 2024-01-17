@@ -2,7 +2,7 @@
 
 ## Overview
 
-During this work session, i focused on seting the robot frame.
+During this work session, i focused on setting the robot frame.
 
 ## Robot frame
 
