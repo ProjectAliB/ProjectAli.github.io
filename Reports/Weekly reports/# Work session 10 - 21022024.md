@@ -36,6 +36,6 @@ Using a wood plank measuring around 33mm in thickness to adjust the height of th
 During today's test of the wheels speed control, i accidently burned the arduino micro-controller. After discussing the problem with my collegues, i found that the problem resides in the amount of voltage and power supplied to the arduino. The arduino controller supports 5V, however my power source ddelivered 12V as demanded by my motors. The amount of supplied power being overwhelmingly superior to the upper limit, the burning was inevitable.
 To ensure such a accident doesn't happen, it is essential to supply the controller through its power converter, which can support a 12V voltage and convert it to the 5V used for the arduino.
 
-## Next session goel
+## Next session goal
 
 Install a bluetooth system on the robot to be able to control it remotely.
