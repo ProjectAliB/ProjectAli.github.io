@@ -20,7 +20,7 @@ After analysing the pros and cons of each of the two solutions given last sessio
 - Easy to assemble.
 - More freedom.
 - Less time-consuming.
-- 
+
 ![Front wheels](https://github.com/ProjectAliB/ProjectAli.github.io/blob/789e78f4e298a1794a3a90cd20c97fbd545787a1/Ressources/Images%26Pictures/Work%20session%2010/20240221_153405.jpg)
 
 Using a wood plank measuring around 33mm in thickness to adjust the height of the front wheels.
