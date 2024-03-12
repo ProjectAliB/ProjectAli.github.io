@@ -7,7 +7,7 @@
 
 ## Results
 
--Using arrow keys, I used the following code to control the robot movement remotely:
+- Using arrow keys, I used the following code to control the robot movement remotely:
 
 ```
 #include <Servo.h>
