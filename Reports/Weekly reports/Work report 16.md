@@ -10,7 +10,7 @@
 
 Reviewing the precedent work revealed a certain flaw. The last model didn't take into consideration the servomotor's wires. I solved the problem by adding a vertical slot through which wires can pass. Moreover, I added arms to the support in order to fix the servomotor using screw-nut system.
 
-![Servomotor support-Final version]()
+![Servomotor support-Final version](https://github.com/ProjectAliB/ProjectAli.github.io/blob/609ba4b96fc3ed4fae9c0f0864d78d42ee2434e2/Ressources/Images%26Pictures/Week%2016/Screenshot%202024-04-10%20142407.png)
 
 ### Mounting
 
@@ -24,9 +24,9 @@ The said components are :
 - Back motors + Wheels.
 - Front multidirectional wheel.
 
-![Robot space management-Top view]()
+![Robot space management-Top view](https://github.com/ProjectAliB/ProjectAli.github.io/blob/609ba4b96fc3ed4fae9c0f0864d78d42ee2434e2/Ressources/Images%26Pictures/Week%2016/WhatsApp%20Image%202024-04-10%20at%2016.57.50_eee75d05.jpg)
 
-![Robot space management-Bottom view]()
+![Robot space management-Bottom view](https://github.com/ProjectAliB/ProjectAli.github.io/blob/609ba4b96fc3ed4fae9c0f0864d78d42ee2434e2/Ressources/Images%26Pictures/Week%2016/WhatsApp%20Image%202024-04-10%20at%2016.57.51_57f244f4.jpg)
 
 ### Camera mounting
 
